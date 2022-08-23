@@ -1,3 +1,5 @@
-# Python Black Hat Diversos
+# Python Black Hat Miscellaneous
 
-Este repositório é uma coleção de diversos exemplos para fins acadêmicos de códigos em Python para Hackers e Pentesters e não deve ser utilizado para fins maliciosos com o intuito de burlar sistemas, ou instituições.
+This repository is a collection of several examples for academic purposes of Python code for Hackers and Pentesters and should not be used for malicious purposes in order to circumvent systems or institutions.
+
+- [Examples](https://github.com/fabioschorn/python-black-hat-diversos/tree/main/examples)
