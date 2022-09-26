@@ -4,4 +4,4 @@ This repository is a collection of several examples for academic purposes of Pyt
 
 - [Examples](https://github.com/fabioschorn/python-black-hat-diversos/tree/main/examples)
 
-NOTE: Code examples taken from Black Hat Python 2ND Edition book.
+NOTE: Code examples taken from Black Hat Python 2ND Edition book. In addition to the examples in the book, other examples will be added to this Repo.
