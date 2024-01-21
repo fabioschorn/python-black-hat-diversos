@@ -7,7 +7,7 @@ import signal
 
 # Enhanced Configuration
 config = {
-    "host": "1.2.3.4",  # IP address or FQDN
+    "host": "8.8.8.8",  # IP address or FQDN
     "port": "22",  # SSH port
     "users": ["root"],  # Usernames to attempt
     "dirs": ["./"],  # Directories of keys to attempt
